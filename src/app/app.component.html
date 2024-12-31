@@ -1,0 +1,9 @@
+<div class="main-page">
+  <div class="box-group">
+    <div style="width: 100%; height: 10%; display: flex;" *ngFor="let item of XItems ; let i =index">
+      <div style="width: 100%; height: 100%;" *ngFor="let item of YItems;let y =index">
+        <div class="box" [ngClass]='"box-"+i +"-"+y'>{{i}} {{y}}</div>
+      </div>
+    </div>
+  </div>
+</div>

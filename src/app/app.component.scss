@@ -1,0 +1,19 @@
+.main-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page .box-group{
+  width: 50%;
+  height: 70%;
+  background-color: darkgrey;
+}
+.box{
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.box-2-1{background-color: aqua;}
